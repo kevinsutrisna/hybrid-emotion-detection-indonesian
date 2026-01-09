@@ -44,7 +44,3 @@ The research concludes that while pure BERT offers the highest accuracy, the **H
 The models were developed using:
 - **Environment**: Google Colab (T4 GPU).
 - **Libraries**: HuggingFace Transformers, Scikit-learn, Sastrawi (for Indonesian stemming).
-
-### Access the Code
-You can view the full implementation and experimental results here:
-👉 [Colab Notebook Implementation](https://colab.research.google.com/drive/1QJkOnwxJ7aEVKkcIk6wToW9WhTjbcbTu?usp=sharing)
