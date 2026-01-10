@@ -1,4 +1,4 @@
-# 🎭 Hybrid Emotion Detection in Indonesian Music Comments
+# Hybrid Emotion Detection in Indonesian Music Comments
 [![Status](https://img.shields.io/badge/Paper-Accepted-success)]() 
 [![Conference](https://img.shields.io/badge/Index-Scopus-blue)]()
 [![Dataset](https://img.shields.io/badge/Dataset-GitHub-orange)](https://github.com/kevinsutrisna/Emotion-Dataset/tree/main)
@@ -9,7 +9,7 @@ This study introduces a high-performance hybrid architecture that combines the c
 
 ---
 
-## 📌 Research Overview
+## Research Overview
 Detecting emotions in Indonesian music comments is challenging due to informal language, slang, and multilingual mixing. This project evaluates three paradigms:
 1. **Traditional ML**: TF-IDF + SVD with algorithms like SVM, Random Forest, and XGBoost.
 2. **Deep Learning**: Fine-tuned **IndoBERT** for end-to-end contextual classification.
@@ -17,7 +17,7 @@ Detecting emotions in Indonesian music comments is challenging due to informal l
 
 ---
 
-## 🏗️ Methodology
+## Methodology
 The pipeline follows a rigorous process from manual data collection to model evaluation:
 
 * **Data Collection**: 1,000 manually collected and labeled comments from YouTube and TikTok.
@@ -27,7 +27,7 @@ The pipeline follows a rigorous process from manual data collection to model eva
 
 ---
 
-## 📊 Key Findings & Results
+## Key Findings & Results
 The research concludes that while pure BERT offers the highest accuracy, the **Hybrid (Logistic Regression + BERT)** model provides the best balance for production environments.
 
 | Model Paradigm | Accuracy | Training Time | Memory Usage |
